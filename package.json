@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "MySQL homework assignment",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELark2016/bamazon.git"
+  },
+  "author": "Liz Lark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ELark2016/bamazon/issues"
+  },
+  "homepage": "https://github.com/ELark2016/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
