@@ -15,6 +15,13 @@ bamazon is a node application that will take in orders from customers and deplet
 ## User will see the full list of items that are available in inventory and will be asked which item they want to buy
 ![InventoryList](https://github.com/ELark2016/bamazon/blob/master/images/inventoryList.png)
 
+## The user should enter the number of the item that they'd like to buy and the quantity
+In this case, the user has entered number '5' and 'Diamond Ring' has been selected. The user will be prompted to enter the quantity after they've enter the item number. 
+![UserSelection](https://github.com/ELark2016/bamazon/blob/master/images/UserSelection.png)
+
+
+
+
 
 
 
