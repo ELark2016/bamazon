@@ -21,8 +21,13 @@ In this case, the user has entered number '5' and 'Diamond Ring' has been select
 
 ![UserSelection](https://github.com/ELark2016/bamazon/blob/master/images/UserSelection.png)
 
-## Once the item number and quantity have been entered. They system will message the user to let them know if the order has been received and what the total cost of the order is based on the quantity entered. 
+## Once the item number and quantity have been entered. They system will message the user to let them know if the order has been received and what the total cost of the order is based on the quantity entered
 ![OrderReceived](https://github.com/ELark2016/bamazon/blob/master/images/OrderRecvd.png)
+
+## The .js file will decrement the number of items available in inventory based on the quantity entered by the user and will update the number of items avaiable (quantity) in the database
+![Updated_DB](https://github.com/ELark2016/bamazon/blob/master/images/Updated_DB.png)
+
+
 
 
 
