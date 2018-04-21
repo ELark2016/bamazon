@@ -14,22 +14,28 @@ Note that there are 9 Diamond Rings available in the database
 2. Run the file in node.js
 ![runNodeJS](https://github.com/ELark2016/bamazon/blob/master/images/node_bamazon_js.png)
 
-## Full list of available items is provided; user is asked which item they want to buy
+3. Full list of available items is provided; user is asked which item they want to buy
 Note: User should enter the item number
 ![InventoryList](https://github.com/ELark2016/bamazon/blob/master/images/inventoryList.png)
 
-## Enter item number and number of items that are to be purchased
+4. Enter item number and number of items that are to be purchased
 In this case, the user has entered number '5' and 'Diamond Ring' has been selected. The user will be prompted to enter the quantity after they've enter the item number. 
 ![UserSelection](https://github.com/ELark2016/bamazon/blob/master/images/UserSelection.png)
 
-## Success message is provided along with total cost of purchase
+5. Success message is provided along with total cost of purchase
 The user has purchased 2 diamond rings at $1000 each.
 ![OrderReceived](https://github.com/ELark2016/bamazon/blob/master/images/OrderRecvd.png)
 
-## Number of available items is decreased from inventory in the database 
+6. Number of available items is decreased from inventory in the database 
 Note that there are 7 Diamond Rings available in the database after the purchase
 ![Updated_DB](https://github.com/ELark2016/bamazon/blob/master/images/Updated_DB.png)
 
+## Workflow if out of inventory
+
+See steps 1 - 4 in the 'Workflow for a successful order
+
+1. User is notified that the item is not available
+![OutOfStock](https://github.com/ELark2016/bamazon/blob/master/images/OutOfStock.png)
 
 
 
