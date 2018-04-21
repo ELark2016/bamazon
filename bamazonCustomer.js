@@ -73,10 +73,12 @@ function queryAllProducts() {
               console.log("Your order has been received!");
               console.log("The total cost of your order is: " + "$" + cost);
               //console.log("There are now " + newQty + " of this item in inventory");
+              connection.end();
             }
           );
         }else{
           console.log ("Sorry, this item is out of stock.");
+          connection.end();
         }
       });
   });
