@@ -56,6 +56,7 @@ function queryAllProducts() {
         }
         if (chosenItem.stock_quantity >= parseInt(selection.quantity)) {
           var newQty = chosenItem.stock_quantity - parseInt(selection.quantity);
+          var cost = chosenItem.price * parseInt(selection.quantity);
 
           connection.query(
             "UPDATE products SET ? WHERE ?",
@@ -70,6 +71,7 @@ function queryAllProducts() {
             function(error) {
               if (error) throw err;
               console.log("Your order has been received!");
+              console.log("The total cost of your order is: " + "$" + cost);
               console.log("There are now " + newQty + " of this item in inventory");
             }
           );
