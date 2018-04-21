@@ -7,7 +7,7 @@ bamazon is a node application that will take in orders from customers and deplet
 # Let's take a look at the workflow for placing an order
 
 ## Initial snapshot of database
-![beginningDB](https://github.com/ELark2016/bamazon/blob/master/images/Starting_SnapShot_of_Database.png=150x100)
+![beginningDB](https://github.com/ELark2016/bamazon/blob/master/images/Starting_SnapShot_of_Database.png)
 
 
 ## Run the file in node.js
