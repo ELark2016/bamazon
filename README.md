@@ -1,17 +1,17 @@
-# bamazon #
+# bamazon 
 
 
-## What is bamazon? ##
+### What is bamazon? 
 bamazon is a node application that will take in orders from customers and deplete stock from the store's inventory. The store's inventory is managed from a SQL database. 
 
-# Workflow for a successful order
+## Workflow for a successful order
 
-## Initial snapshot of database
+1. Initial snapshot of database
 Note that there are 9 Diamond Rings available in the database
 ![beginningDB](https://github.com/ELark2016/bamazon/blob/master/images/Starting_SnapShot_of_Database.png)
 
 
-## Run the file in node.js
+2. Run the file in node.js
 ![runNodeJS](https://github.com/ELark2016/bamazon/blob/master/images/node_bamazon_js.png)
 
 ## Full list of available items is provided; user is asked which item they want to buy
