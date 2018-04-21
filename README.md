@@ -7,7 +7,7 @@ bamazon is a node application that will take in orders from customers and deplet
 # Workflow for a successful order
 
 ## Initial snapshot of database
-Note: There are 9 Diamond Rings Available in the database
+Note that there are 9 Diamond Rings available in the database
 ![beginningDB](https://github.com/ELark2016/bamazon/blob/master/images/Starting_SnapShot_of_Database.png)
 
 
@@ -23,9 +23,11 @@ In this case, the user has entered number '5' and 'Diamond Ring' has been select
 ![UserSelection](https://github.com/ELark2016/bamazon/blob/master/images/UserSelection.png)
 
 ## Success message is provided along with total cost of purchase
+The user has purchased 2 diamond rings at $1000 each.
 ![OrderReceived](https://github.com/ELark2016/bamazon/blob/master/images/OrderRecvd.png)
 
 ## Number of available items is decreased from inventory in the database 
+Note that there are 7 Diamond Rings available in the database after the purchase
 ![Updated_DB](https://github.com/ELark2016/bamazon/blob/master/images/Updated_DB.png)
 
 
