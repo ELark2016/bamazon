@@ -37,6 +37,8 @@ See steps 1 - 4 in the 'Workflow for a successful order
 1. User is notified that the item is not available
 ![OutOfStock](https://github.com/ELark2016/bamazon/blob/master/images/OutOfStock.png)
 
+Note: See step 6 of successful workflow for a snapshot of the database that shows that there are 0 Bubblegums available for order
+
 
 
 
