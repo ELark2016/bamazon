@@ -8,7 +8,7 @@ bamazon is a node application that will take in orders from customers and deplet
 
 1. Initial snapshot of database
 Note that there are 9 Diamond Rings available in the database
-![beginningDB](https://github.com/ELark2016/bamazon/blob/master/images/Starting_SnapShot_of_Database.png)
+![beginningDB](https://github.com/ELark2016/bamazon/blob/master/images/Starting_SnapShot_of_Database.png "Initial DB View")
 
 
 2. Run the file in node.js
