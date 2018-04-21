@@ -51,7 +51,7 @@ function queryAllProducts() {
         for (var i = 0; i < res.length; i++){
           if (res[i].product_name === selection.choice) {
             chosenItem = res[i];
-            console.log(chosenItem);
+            //console.log(chosenItem);
           }
         }
         if (chosenItem.stock_quantity >= parseInt(selection.quantity)) {
@@ -72,7 +72,7 @@ function queryAllProducts() {
               if (error) throw err;
               console.log("Your order has been received!");
               console.log("The total cost of your order is: " + "$" + cost);
-              console.log("There are now " + newQty + " of this item in inventory");
+              //console.log("There are now " + newQty + " of this item in inventory");
             }
           );
         }else{
